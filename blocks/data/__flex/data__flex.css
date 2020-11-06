@@ -1,0 +1,9 @@
+.data__flex {
+    max-width: 284px;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 24px;
+}
+

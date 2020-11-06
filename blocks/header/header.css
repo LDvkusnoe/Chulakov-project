@@ -1,0 +1,9 @@
+@import url(./__title/header__title.css);
+@import url(./__text/header__text.css);
+
+.header {
+    max-width: 639px;
+    height: 162px;
+    background-color: #00aeef; 
+    
+}

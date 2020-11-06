@@ -1,0 +1,23 @@
+.footer__bulgakov { 
+    background-color: #373c43;
+    color: #7f8591;
+    font-family: "Arial";
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 29px;
+    padding-right: 45px;
+}
+
+.footer__bulgakov:nth-child(1){
+    padding-top: 26px;
+}
+
+.footer__bulgakov:nth-child(4){
+    padding-right: 33px;
+}

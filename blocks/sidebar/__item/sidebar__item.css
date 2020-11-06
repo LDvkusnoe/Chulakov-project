@@ -1,0 +1,28 @@
+.sidebar__item {
+    text-decoration: none;
+    background-color: #1f2229;   
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    padding-left: 29px;
+    padding-top: 28px;
+    padding-bottom: 22px;
+    margin-bottom: 1px;
+    transition: 0.5s;
+}
+
+.sidebar__item:hover {
+    opacity: 0.8;
+    background-color: #1f2229;
+  }
+
+.sidebar__item:focus {
+    color:#808592; 
+    background-color: #2a2d37;
+}
+

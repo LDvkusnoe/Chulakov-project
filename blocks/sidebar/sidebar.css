@@ -1,0 +1,13 @@
+@import url(./__item/sidebar__item.css);
+
+.sidebar {
+    max-width: 318px;
+    height: 538px;
+    background-color: #25272b;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 126px;
+    margin-right: 2px;
+    margin-bottom: 0;  
+}

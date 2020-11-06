@@ -1,0 +1,13 @@
+@import url(./__subtitle/data__subtitle.css);
+@import url(./__information/data__information.css);
+@import url(./__flex/data__flex.css);
+@import url(./__info/data__info.css);
+@import url(./__money/data__money.css);
+@import url(./__sum/data__sum.css);
+@import url(./__number/data__number.css);
+
+.data {
+    max-width: 639px;
+    height: 569px;
+    background-color: #f7f8f8;
+}

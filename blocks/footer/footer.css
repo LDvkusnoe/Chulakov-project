@@ -1,0 +1,8 @@
+@import url(./__bulgakov/footer__bulgakov.css);
+
+.footer {
+    max-width: 639px;
+    height: 263px;
+    background-color: #373c43;
+    margin-top: 0;
+}

@@ -1,0 +1,9 @@
+
+.page {
+    min-width: 1200px;
+    height: 1162px;
+    padding-top: 87px;
+    background-color: #101114;
+    display: grid;
+    grid-template-columns: 28rem 40rem;
+}

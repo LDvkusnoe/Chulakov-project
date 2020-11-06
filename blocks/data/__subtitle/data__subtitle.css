@@ -1,0 +1,16 @@
+.data__subtitle {
+    max-width: 310px;
+    height: 22px;
+    color: #383d43;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25.45px;
+    text-align: left;
+    display: inline;
+    padding-left: 29px;
+    padding-top: 35px;
+    margin: 0;
+}
