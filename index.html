@@ -44,19 +44,34 @@
                    </div>
                 
 
-                <div class="bank-card">
-                <div class="bank-card__outer">
-                    <p></p>
-                    <div></div>
-                    <p></p>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="bank-card__interior"></div>
-                
-                </div>
+                <form class="bank-card">
+                    <div class="bank-card__outer">
+                        <p class="bank-card__text">Номер карты</p>
+                        <div class="bank-card__imput">
+                            <input class="bank-card__field" id="number" type="text" placeholder="0000">
+                            <input class="bank-card__field" id="number" type="text" placeholder="0000">
+                            <input class="bank-card__field" id="number" type="text" placeholder="0000">
+                            <input class="bank-card__field" id="number" type="text" placeholder="0000">
+                        </div>
+                        <p class="bank-card__term">Срок действия</p>
+                        <div class="bank-card__imput">
+                            <input class="bank-card__expired" id="mm" type="text" placeholder="">
+                            <input class="bank-card__expired" id="yy" type="text" placeholder="">
+                        </div>
+                        <div class="bank-card__imput">
+                            <input class="bank-card__owner" id="number" type="text" placeholder="Держатель карты"> 
+                        </div>
+                    </div>
+                    <div class="bank-card__interior">
+                        <div class="bank-card__strip"></div>
+                        <p class="bank-card__subtitle">Код CVV2 / CVC2</p>
+                        <input class="bank-card__cvv" id="number" type="text" placeholder="000">
+                    </div>
 
-                </div>
+                    <button class="button" type="button" href="#">Отправить</button>
+
+                </form>
+
             </section>
 
             <section class="footer">

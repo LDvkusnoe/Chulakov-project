@@ -1,0 +1,6 @@
+.bank-card__expired {
+    max-width: 70px;
+    height: 42px;
+    border: 1px solid #e4e9ee;
+    background-color: #ffffff;
+}

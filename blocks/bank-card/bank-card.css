@@ -1,0 +1,16 @@
+@import url(./__text/bank-card__text.css);
+@import url(./__owner/bank-card__owner.css);
+@import url(./__outer/bank-card__outer.css);
+@import url(./__imput/bank-card__imput.css);
+@import url(./__field/bank-card__field.css);
+@import url(./__expired/bank-card__expired.css);
+@import url(./__interior/bank-card__interior.css);
+@import url(./__cvv/bank-card__cvv.css);
+@import url(./__strip/bank-card__strip.css);
+@import url(./__subtitle/bank-card__subtitle.css);
+@import url(./__term/bank-card__term.css);
+
+.bank-card {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
