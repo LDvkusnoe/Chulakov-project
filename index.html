@@ -48,24 +48,46 @@
                     <div class="bank-card__outer">
                         <p class="bank-card__text">Номер карты</p>
                         <div class="bank-card__imput">
-                            <input class="bank-card__field" id="number" type="text" placeholder="0000">
-                            <input class="bank-card__field" id="number" type="text" placeholder="0000">
-                            <input class="bank-card__field" id="number" type="text" placeholder="0000">
-                            <input class="bank-card__field" id="number" type="text" placeholder="0000">
+                            <input class="bank-card__field" id="number" type="text" placeholder="0000" required>
+                            <input class="bank-card__field" id="number" type="text" placeholder="0000" required>
+                            <input class="bank-card__field" id="number" type="text" placeholder="0000" required>
+                            <input class="bank-card__field" id="number" type="text" placeholder="0000" required>
                         </div>
                         <p class="bank-card__term">Срок действия</p>
                         <div class="bank-card__imput">
-                            <input class="bank-card__expired" id="mm" type="text" placeholder="">
-                            <input class="bank-card__expired" id="yy" type="text" placeholder="">
+                            <input list="mmlist" class="bank-card__expired" id="mm" type="text" placeholder="01">
+                            <datalist id="mmlist"> 
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                                <option>06</option>
+                                <option>07</option>
+                                <option>08</option>
+                                <option>09</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </datalist>
+                            <input list="yylist"class="bank-card__expired" id="yy" type="text" placeholder="2018">
+                            <datalist id="yylist"> 
+                                <option>2016</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                            </datalist>
                         </div>
                         <div class="bank-card__imput">
-                            <input class="bank-card__owner" id="number" type="text" placeholder="Держатель карты"> 
+                            <input class="bank-card__owner" id="number" type="text" placeholder="Держатель карты" required> 
                         </div>
                     </div>
                     <div class="bank-card__interior">
                         <div class="bank-card__strip"></div>
                         <p class="bank-card__subtitle">Код CVV2 / CVC2</p>
-                        <input class="bank-card__cvv" id="number" type="text" placeholder="000">
+                        <input class="bank-card__cvv" id="number" type="text" placeholder="000" required>
                     </div>
 
                     <button class="button" type="button" href="#">Отправить</button>
