@@ -2,3 +2,7 @@
     max-width: 639px;
     height: 994px;   
 }
+
+.content:target {
+    display: block;
+}
