@@ -1,0 +1,20 @@
+.elements {
+    max-width: 639px;
+    min-height: 568px;
+    margin: 0;
+    background-color:#f7f8f8;
+}
+
+
+
+@media (max-width: 1090px) {
+    .elements {
+      padding-bottom: 20px;
+    }
+  }
+
+@media (max-width: 410px) {
+    .elements {
+      padding-bottom: 20px;
+    }
+  }

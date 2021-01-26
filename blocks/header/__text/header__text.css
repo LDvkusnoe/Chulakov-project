@@ -1,5 +1,5 @@
 .header__text {
-    max-width: 431px;
+    max-width: 432px;
     height: 33px;
     color: #193945;
     font-family: "Arial";
@@ -8,8 +8,16 @@
     font-style: normal;
     letter-spacing: normal;
     line-height: 20px;
-    margin-top: 0;
+    margin-top: -6px;
     padding-top: 12px;
     padding-left: 30px;
 
 }
+
+@media (max-width: 410px) {
+    .header__text {    
+        min-width: 0; 
+        height: 0;  
+        padding: 19px 0px 60px 28px;
+    }
+  }

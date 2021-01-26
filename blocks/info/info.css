@@ -1,0 +1,13 @@
+@import url(./__payment/info__payment.css);
+@import url(./__score/info__score.css);
+@import url(./__number/info__number.css);
+@import url(./__money/info__money.css);
+@import url(./__sum/info__sum.css);
+
+.info {
+    max-width: 639px;
+    height: 84px;
+    padding: 45px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}

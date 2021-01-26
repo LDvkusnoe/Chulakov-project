@@ -1,0 +1,31 @@
+.card-name__holder {
+    display: block;
+    min-width: 303px;
+    height: 37px;
+    border: 1px solid #e4e9ee;
+    background-color: #ffffff;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: left;
+    padding-left: 11px;
+    padding-top: 2px;
+    margin: 12px 0 0 15px;
+    
+    
+}
+
+::-webkit-input-placeholder {color:#bec6cf;}
+::-moz-placeholder          {color:#bec6cf;}/* Firefox 19+ */
+:-moz-placeholder           {color:#bec6cf;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#bec6cf;}
+
+
+@media (max-width: 410px) {
+    .card-name__holder {     
+        min-width: 247px;   
+    }
+  }

@@ -1,0 +1,20 @@
+.cardback__band {
+    background-color: rgb(228, 233, 238);
+    max-width: 276px;
+    height: 42px;
+    margin: 26px 0 0px 94px;
+    
+  } 
+
+  @media (max-width: 1090px) {
+    .cardback__band {
+      max-width: 350px;
+    margin: 26px 0 0px 0px;
+    }
+  }
+
+  @media (max-width: 410px) {
+    .cardback__band {
+       
+    }
+  }

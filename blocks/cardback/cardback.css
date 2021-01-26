@@ -1,0 +1,30 @@
+@import url(./__band/cardback__band.css);
+@import url(./__code/cardback__code.css);
+@import url(./__cvv/cardback__cvv.css);
+@import url(./__icon/cardback__icon.css);
+
+
+.cardback {
+    max-width: 370px;
+    height: 235px;
+    border: 1px solid #e4e9ee;
+    border-radius: 12px;
+    margin: -217px 0 0 223px;
+    
+}
+
+@media (max-width: 1090px) {
+    .cardback {
+        display: block;
+        max-width: 350px;
+        margin: 25px 0 0 29px;
+    }
+  }
+
+  @media (max-width: 410px) {
+    .cardback {
+        display: block;
+        max-width: 350px;
+        margin: 25px 14px 0px 14px;
+    }
+  }

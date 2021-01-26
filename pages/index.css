@@ -5,7 +5,14 @@
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/sidebar/sidebar.css');
 @import url('../blocks/content/content.css');
-@import url('../blocks/bank-card/bank-card.css');
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/data/data.css');
 @import url('../blocks/button/button.css');
+@import url('../blocks/elements/elements.css');
+@import url('../blocks/info/info.css');
+@import url('../blocks/subtitle/subtitle.css');
+@import url('../blocks/cardface/cardface.css');
+@import url('../blocks/cardback/cardback.css');
+@import url('../blocks/card-number/card-number.css');
+@import url('../blocks/card-name/card-name.css');
+@import url('../blocks/card-date/card-date.css');
+@import url('../blocks/body/body.css');

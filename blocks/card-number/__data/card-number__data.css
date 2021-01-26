@@ -1,0 +1,27 @@
+.card-number__data {
+    max-width: 59px;
+    height: 38px;
+    border: 1px solid #e4e9ee;
+    background-color: #ffffff;
+    text-align: center;
+    color: #373c43;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    margin: 9px -10px 0px 15px;
+}
+
+    
+input::-webkit-calendar-picker-indicator {
+    opacity: 1;
+}
+
+
+@media (max-width: 410px) {
+    .card-number__data {     
+        max-width: 53px;   
+    }
+  }

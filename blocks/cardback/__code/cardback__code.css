@@ -1,0 +1,21 @@
+.cardback__code {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(132, 148, 171);
+    line-height: 1.313;
+    text-align: left;
+    margin: 15px 0px 0 217px;
+    display: block;
+  }
+  
+  @media (max-width: 1090px) {
+    .cardback__code {
+      margin: 15px 0px 0 190px;
+    }
+  }
+
+  @media (max-width: 410px) {
+    .cardback__code {
+      margin: 15px 0px 0 142px; 
+    }
+  }

@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>chulakov.ru</title>
 </head>
-<body>
+<body class="body">
     <div class="page">
         <section class="sidebar">
             <a href="https://chulakov.ru/" target="_blank"> 
                 <img src="./images/logo.png" alt="chulakov.ru" class="logo">
             </a>
             <a href="#" class="sidebar__item">Первая ссылка</a>
-            <a href="#" class="sidebar__item">Вторая ссылка</a>
+            <a href="#" class="sidebar__item">Вторая ссылка (активная)</a>
             <a href="#" class="sidebar__item">Третья ссылка</a>
             <a href="#" class="sidebar__item">Личный кабинет</a>
             <a href="#" class="sidebar__item">Выйти</a>
@@ -21,82 +21,76 @@
         
 
     
-        <mine class="content">
-            <section class="header"> 
+        <div class="content">
+            <header class="header"> 
                 <h1 class="header__title">Заголовок страницы</h1>
                 <p class="header__text">В отличие от пылевого и 
                     ионного хвостов, направление поступает
                     в лимногляциальный часовой угол
                 </p>
-            </section>
+            </header>
+        
+            <form action="#"  method="POST" class="elements">
+                  <div class="info">
+                      <p class="info__payment">Информация по оплате:</p>
+                      <p class="info__number">Номер счета:</p>
+                      <p class="info__sum">Сумма платежа:</p>
+                      <p class="info__score">87123658716587</p>
+                      <p class="info__money">100 руб.</p>
+                  </div>
 
-            <section class="data">
-                <div class="data__information"> 
-                   <p class="data__info">Информация по оплате:</p>
-                   <div class="data__flex">
-                        <p class="data__number">Номер счета:</p>
-                        <p class="data__sum">Сумма платежа:</p>
-                        <p class="data__money">87123658716587</p>
-                        <p class="data__money">100 руб.</p>
-                   </div>
-                   <div class="data__subtitle">
-                   <p>Данные банковской карты</p>
-                   </div>
-                
+                  <h2 class="subtitle">Данные банковской карты</h2>
 
-                <form class="bank-card">
-                    <div class="bank-card__outer">
-                        <p class="bank-card__text">Номер карты</p>
-                        <div class="bank-card__imput">
-                            <input class="bank-card__field" id="number" type="text" placeholder="0000" required>
-                            <input class="bank-card__field" id="number" type="text" placeholder="0000" required>
-                            <input class="bank-card__field" id="number" type="text" placeholder="0000" required>
-                            <input class="bank-card__field" id="number" type="text" placeholder="0000" required>
-                        </div>
-                        <p class="bank-card__term">Срок действия</p>
-                        <div class="bank-card__imput">
-                            <input list="mmlist" class="bank-card__expired" id="mm" type="text" placeholder="01">
-                            <datalist id="mmlist"> 
-                                <option>01</option>
-                                <option>02</option>
-                                <option>03</option>
-                                <option>04</option>
-                                <option>05</option>
-                                <option>06</option>
-                                <option>07</option>
-                                <option>08</option>
-                                <option>09</option>
-                                <option>10</option>
-                                <option>11</option>
-                                <option>12</option>
-                            </datalist>
-                            <input list="yylist"class="bank-card__expired" id="yy" type="text" placeholder="2018">
-                            <datalist id="yylist"> 
-                                <option>2016</option>
-                                <option>2017</option>
-                                <option>2018</option>
-                                <option>2019</option>
-                                <option>2020</option>
-                                <option>2021</option>
-                            </datalist>
-                        </div>
-                        <div class="bank-card__imput">
-                            <input class="bank-card__owner" id="number" type="text" placeholder="Держатель карты" required> 
-                        </div>
-                    </div>
-                    <div class="bank-card__interior">
-                        <div class="bank-card__strip"></div>
-                        <p class="bank-card__subtitle">Код CVV2 / CVC2</p>
-                        <input class="bank-card__cvv" id="number" type="text" placeholder="000" required>
+                  <div class="cardface">
+                      <div class="card-number">
+                          <label class="card-number__number">Номер карты</label>
+                          <input class="card-number__data" type="text" id="numberplace1" minlength="4" maxlength="4" required>
+                          <input class="card-number__data" type="text" id="numberplace2" minlength="4" maxlength="4" required>
+                          <input class="card-number__data" type="text" id="numberplace3" minlength="4" maxlength="4" required>
+                          <input class="card-number__data" type="text" id="numberplace4" minlength="4" maxlength="4" required>
+                      </div>
+
+                      <div class="card-date">
+                        <label class="card-date__validity">Срок действия</label>
+                        <select class="card-date__data card-date__arrowdatemonth" id="datemonth">
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option selected>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        <select class="card-date__data card-date__arrowdateyear" id="dateyear">
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                          <option>2021</option>
+                          <option>2022</option>
+                        </select>
                     </div>
 
-                    <button class="button" type="button" href="#">Отправить</button>
+                      <div class="card-name">
+                          <input class="card-name__holder" name="card-name" type="text" id="cardname" minlength="4" placeholder="Держатель карты" required>
+                      </div>
+                  </div>
 
-                </form>
+                  <div class="cardback">
+                      <div class="cardback__band"></div>                
+                      <label class="cardback__code">Код CVV2 / CVC2</label>
+                      <input class="cardback__cvv cardback__icon" type="text" id="cvv" minlength="3" maxlength="3" required>                    
+                  </div>
 
-            </section>
+                  <button class="button" onclick="sendData()">Оплатить</button>
+            </form>
+            
 
-            <section class="footer">
+            <footer class="footer">
                 <p class="footer__bulgakov">Исходя из астатической системы координат Булгакова, соединение стабильно. 
                     Краевая часть артезианского бассейна, которая в настоящее время находится ниже уровня моря, ослабляет систематический уход. 
                     Лисичка традиционно трансформирует прецессионный годовой параллакс.</p>
@@ -105,11 +99,12 @@
                 <p class="footer__bulgakov">Устойчивость, например, параллельна. Аргумент перигелия определяет боксит. 
                     Проекция вертикально дает уходящий диабаз.  
                     Если пренебречь малыми величинами, то видно, что угол крена покрывает вибрирующий волчок, 
-                    что обусловлено не только первичными неровностями эрозионно-тектонического рельефа поверхности кристаллических пород,
+                    что обусловлено не только первичными неровностями <br>эрозионно-тектонического рельефа поверхности кристаллических пород,
                     но и проявлениями долее поздней блоковой тектоники. Засветка неба заставляет иначе взглянуть на то, что такое волчок.
                 </p>
-            </section>
-        </mine>
+            </footer>
+        </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>

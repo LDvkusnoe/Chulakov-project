@@ -15,3 +15,12 @@
     padding-left: 27px;
     
 }
+
+@media (max-width: 1090px) {
+    .header__title {     
+        min-width: 0; 
+        height: 0; 
+        padding: 19px 0px 60px 28px; 
+        line-height: 29px;
+    }
+  }

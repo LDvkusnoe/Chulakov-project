@@ -1,10 +1,12 @@
 @font-face {
 	font-family: 'Arial';
-	src: url('../fonts/Arial.eot');
-	src: local('☺'), url('../fonts/Arial.woff') format('woff'), url('../fonts/Arial.ttf') format('truetype'), url('../fonts/Arial.svg') format('svg');
+	src: url('fonts/ArialRegular.eot');
+	src: local('☺'), url('../fonts/ArialRegular.woff') format('woff'), url('../fonts/ArialRegular.ttf') format('truetype'), url('../fonts/ArialRegular.svg') format('svg');
 	font-weight: normal;
-	font-style: 400;
+	font-style: normal;
 }
+
+
 
 @font-face {
     font-family: "Open Sans";

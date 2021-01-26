@@ -10,11 +10,12 @@
     font-style: normal;
     letter-spacing: normal;
     line-height: 24px;
-    padding-left: 29px;
-    padding-top: 28px;
+    padding-left: 27px;
+    padding-top: 23px;
     padding-bottom: 22px;
-    margin-bottom: 1px;
+    margin-bottom: 0.001em;
     transition: 0.5s;
+    border-top: 0.001em solid #27272975;
 }
 
 .sidebar__item:hover {
@@ -27,3 +28,17 @@
     background-color: #2a2d37;
 }
 
+.sidebar__item:nth-child(3) {
+    color: #808592;
+    background-color: #2a2d37;
+}
+
+.sidebar__item:nth-child(5) {
+    color: #808592;
+    background-color: #191c24;
+}
+
+.sidebar__item:nth-child(6) {
+    color: #808592;
+    background-color: #191c24;
+}

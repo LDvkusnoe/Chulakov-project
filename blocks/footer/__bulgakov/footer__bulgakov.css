@@ -10,14 +10,14 @@
     text-align: left;
     margin: 0;
     padding-top: 10px;
-    padding-left: 29px;
-    padding-right: 45px;
+    padding-left: 30px;
+    padding-right: 40px;
 }
 
 .footer__bulgakov:nth-child(1){
-    padding-top: 26px;
+    padding-top: 23px;
 }
 
-.footer__bulgakov:nth-child(4){
+.footer__bulgakov:nth-child(3){
     padding-right: 33px;
 }

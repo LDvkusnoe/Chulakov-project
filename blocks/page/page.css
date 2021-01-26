@@ -1,10 +1,15 @@
 
 .page {
-    min-width: 1200px;
-    min-height: 1162px;
+    min-width: 320px;
+    margin: 0 auto;
     padding-top: 87px;
-    background-color: #101114;
     display: grid;
-    grid-template-columns: 445px 640px;
+    grid-template-columns: 445px 639px;
 }
 
+@media (max-width: 1090px) {
+    .page {
+        display: block;
+        padding-top: 0;
+    }
+  } 
